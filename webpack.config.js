@@ -37,6 +37,7 @@ export default {
               modules: true,
             },
           },
+          'css-modules-typescript-loader'
         ],
       },
       {
