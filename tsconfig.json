@@ -3,21 +3,18 @@
     "target": "ES5",
     "module": "esnext",
     "strict": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "moduleResolution": "node",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "outDir": "./dist",
     "rootDir": "./src",
-    "typeRoots": [
-      "./src/",
-      "./node_modules/@types"
-    ]
+    "typeRoots": ["./src/", "./node_modules/@types"],
+    "paths": {
+      "@components/*": ["components/*"]
+    }
   },
   "include": ["src", "global.d.ts"],
-  "exclude": [
-    "node_modules",
-    "**/*.spec.ts"
-  ]
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }

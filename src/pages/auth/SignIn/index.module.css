@@ -1,3 +1,11 @@
+.container_signin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 .wrapper_signin {
   display: flex;
   flex-direction: column;
@@ -7,7 +15,7 @@
   min-height: 400px;
   padding: 20px 10px 24px;
   width: 484px;
-  background-color: #f5f2f2;
+  background-color: #fff;
   height: 634px;
   border-radius: 32px;
   position: relative;
